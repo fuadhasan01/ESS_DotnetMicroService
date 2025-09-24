@@ -1,0 +1,12 @@
+C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services\Customer\Customer.Domain\bin\Debug\net9.0\Customer.Domain.deps.json
+C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services\Customer\Customer.Domain\bin\Debug\net9.0\Customer.Domain.dll
+C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services\Customer\Customer.Domain\bin\Debug\net9.0\Customer.Domain.pdb
+C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services\Customer\Customer.Domain\obj\Debug\net9.0\Customer.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services\Customer\Customer.Domain\obj\Debug\net9.0\Customer.Domain.AssemblyInfoInputs.cache
+C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services\Customer\Customer.Domain\obj\Debug\net9.0\Customer.Domain.AssemblyInfo.cs
+C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services\Customer\Customer.Domain\obj\Debug\net9.0\Customer.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services\Customer\Customer.Domain\obj\Debug\net9.0\Customer.Domain.sourcelink.json
+C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services\Customer\Customer.Domain\obj\Debug\net9.0\Customer.Domain.dll
+C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services\Customer\Customer.Domain\obj\Debug\net9.0\refint\Customer.Domain.dll
+C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services\Customer\Customer.Domain\obj\Debug\net9.0\Customer.Domain.pdb
+C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services\Customer\Customer.Domain\obj\Debug\net9.0\ref\Customer.Domain.dll

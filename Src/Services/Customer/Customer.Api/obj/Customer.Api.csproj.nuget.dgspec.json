@@ -1,0 +1,595 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Api\\Customer.Api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj",
+        "projectName": "BuildingBlocks.Messaging",
+        "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj",
+        "packagesPath": "C:\\Users\\Fuad Hasan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Fuad Hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj",
+        "projectName": "BuildingBlocks.Persistence",
+        "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Fuad Hasan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Persistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Fuad Hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Web\\BuildingBlocks.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Web\\BuildingBlocks.Web.csproj",
+        "projectName": "BuildingBlocks.Web",
+        "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Web\\BuildingBlocks.Web.csproj",
+        "packagesPath": "C:\\Users\\Fuad Hasan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Fuad Hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "Microsoft.Extensions.Http.Resilience": {
+              "target": "Package",
+              "version": "[9.8.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Api\\Customer.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Api\\Customer.Api.csproj",
+        "projectName": "Customer.Api",
+        "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Api\\Customer.Api.csproj",
+        "packagesPath": "C:\\Users\\Fuad Hasan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Fuad Hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj": {
+                "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj"
+              },
+              "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj"
+              },
+              "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Web\\BuildingBlocks.Web.csproj": {
+                "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Web\\BuildingBlocks.Web.csproj"
+              },
+              "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj": {
+                "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj"
+              },
+              "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\services\\customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\services\\customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "AspNetCore.HealthChecks.NpgSql": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MassTransit": {
+              "target": "Package",
+              "version": "[8.5.3, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj",
+        "projectName": "Customer.Application",
+        "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj",
+        "packagesPath": "C:\\Users\\Fuad Hasan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Fuad Hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj": {
+                "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[12.0.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj",
+        "projectName": "Customer.Domain",
+        "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj",
+        "packagesPath": "C:\\Users\\Fuad Hasan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Fuad Hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\services\\customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\services\\customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj",
+        "projectName": "Customer.Infrastructure",
+        "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\services\\customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Fuad Hasan\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\services\\customer\\Customer.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Fuad Hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net9.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net9.0": {
+            "targetAlias": "net9.0",
+            "projectReferences": {
+              "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj": {
+                "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj"
+              },
+              "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj": {
+                "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj"
+              },
+              "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj": {
+                "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj"
+              },
+              "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj": {
+                "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net9.0": {
+          "targetAlias": "net9.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration.Binder": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[9.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.305/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
