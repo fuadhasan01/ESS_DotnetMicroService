@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2cCxTHmGuXg=",
+  "dgSpecHash": "9+PO57Ydk8Q=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj",
+  "projectFilePath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

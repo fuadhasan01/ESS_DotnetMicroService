@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Procurement\\Procurement.Domain\\Procurement.Domain.csproj": {}
+    "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Procurement\\Procurement.Domain\\Procurement.Domain.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Procurement\\Procurement.Domain\\Procurement.Domain.csproj": {
+    "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Procurement\\Procurement.Domain\\Procurement.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Procurement\\Procurement.Domain\\Procurement.Domain.csproj",
+        "projectUniqueName": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Procurement\\Procurement.Domain\\Procurement.Domain.csproj",
         "projectName": "Procurement.Domain",
-        "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Procurement\\Procurement.Domain\\Procurement.Domain.csproj",
-        "packagesPath": "C:\\Users\\Fuad Hasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Procurement\\Procurement.Domain\\obj\\",
+        "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Procurement\\Procurement.Domain\\Procurement.Domain.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Procurement\\Procurement.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Fuad Hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

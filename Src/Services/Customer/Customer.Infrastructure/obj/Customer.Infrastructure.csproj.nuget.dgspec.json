@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\services\\customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj": {}
+    "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj": {
+    "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj",
+        "projectUniqueName": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj",
         "projectName": "BuildingBlocks.Messaging",
-        "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj",
-        "packagesPath": "C:\\Users\\Fuad Hasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\obj\\",
+        "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Fuad Hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -70,20 +69,20 @@
         }
       }
     },
-    "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj": {
+    "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj",
+        "projectUniqueName": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj",
         "projectName": "BuildingBlocks.Persistence",
-        "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj",
-        "packagesPath": "C:\\Users\\Fuad Hasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Persistence\\obj\\",
+        "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Fuad Hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -92,7 +91,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -136,20 +134,20 @@
         }
       }
     },
-    "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj": {
+    "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Application\\Customer.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj",
+        "projectUniqueName": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Application\\Customer.Application.csproj",
         "projectName": "Customer.Application",
-        "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj",
-        "packagesPath": "C:\\Users\\Fuad Hasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Application\\obj\\",
+        "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Application\\Customer.Application.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Fuad Hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -158,15 +156,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj": {
-                "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj"
+              "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Domain\\Customer.Domain.csproj": {
+                "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Domain\\Customer.Domain.csproj"
               }
             }
           }
@@ -216,20 +213,20 @@
         }
       }
     },
-    "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj": {
+    "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Domain\\Customer.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj",
+        "projectUniqueName": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Domain\\Customer.Domain.csproj",
         "projectName": "Customer.Domain",
-        "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj",
-        "packagesPath": "C:\\Users\\Fuad Hasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Domain\\obj\\",
+        "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Domain\\Customer.Domain.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Fuad Hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -238,7 +235,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -282,20 +278,20 @@
         }
       }
     },
-    "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\services\\customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj": {
+    "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\services\\customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj",
         "projectName": "Customer.Infrastructure",
-        "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\services\\customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\Fuad Hasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\services\\customer\\Customer.Infrastructure\\obj\\",
+        "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+        "outputPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Fuad Hasan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -304,24 +300,23 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj": {
-                "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj"
+              "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj": {
+                "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj"
               },
-              "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj": {
-                "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj"
+              "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj": {
+                "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj"
               },
-              "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj": {
-                "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj"
+              "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Application\\Customer.Application.csproj": {
+                "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Application\\Customer.Application.csproj"
               },
-              "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj": {
-                "projectPath": "C:\\Users\\Fuad Hasan\\OneDrive\\Desktop\\Backend\\DotnetCoreMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj"
+              "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Domain\\Customer.Domain.csproj": {
+                "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Domain\\Customer.Domain.csproj"
               }
             }
           }
