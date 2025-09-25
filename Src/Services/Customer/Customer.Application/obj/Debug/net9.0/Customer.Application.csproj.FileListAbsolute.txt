@@ -14,3 +14,19 @@ C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services
 C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services\Customer\Customer.Application\obj\Debug\net9.0\refint\Customer.Application.dll
 C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services\Customer\Customer.Application\obj\Debug\net9.0\Customer.Application.pdb
 C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services\Customer\Customer.Application\obj\Debug\net9.0\ref\Customer.Application.dll
+C:\Fuad\ESS_DotnetMicroService\src\services\customer\Customer.Application\bin\Debug\net9.0\Customer.Application.deps.json
+C:\Fuad\ESS_DotnetMicroService\src\services\customer\Customer.Application\bin\Debug\net9.0\Customer.Application.dll
+C:\Fuad\ESS_DotnetMicroService\src\services\customer\Customer.Application\bin\Debug\net9.0\Customer.Application.pdb
+C:\Fuad\ESS_DotnetMicroService\src\services\customer\Customer.Application\bin\Debug\net9.0\Customer.Domain.dll
+C:\Fuad\ESS_DotnetMicroService\src\services\customer\Customer.Application\bin\Debug\net9.0\Customer.Domain.pdb
+C:\Fuad\ESS_DotnetMicroService\src\services\customer\Customer.Application\obj\Debug\net9.0\Customer.Application.csproj.AssemblyReference.cache
+C:\Fuad\ESS_DotnetMicroService\src\services\customer\Customer.Application\obj\Debug\net9.0\Customer.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fuad\ESS_DotnetMicroService\src\services\customer\Customer.Application\obj\Debug\net9.0\Customer.Application.AssemblyInfoInputs.cache
+C:\Fuad\ESS_DotnetMicroService\src\services\customer\Customer.Application\obj\Debug\net9.0\Customer.Application.AssemblyInfo.cs
+C:\Fuad\ESS_DotnetMicroService\src\services\customer\Customer.Application\obj\Debug\net9.0\Customer.Application.csproj.CoreCompileInputs.cache
+C:\Fuad\ESS_DotnetMicroService\src\services\customer\Customer.Application\obj\Debug\net9.0\Customer.Application.sourcelink.json
+C:\Fuad\ESS_DotnetMicroService\src\services\customer\Customer.Application\obj\Debug\net9.0\Customer.D662BFEF.Up2Date
+C:\Fuad\ESS_DotnetMicroService\src\services\customer\Customer.Application\obj\Debug\net9.0\Customer.Application.dll
+C:\Fuad\ESS_DotnetMicroService\src\services\customer\Customer.Application\obj\Debug\net9.0\refint\Customer.Application.dll
+C:\Fuad\ESS_DotnetMicroService\src\services\customer\Customer.Application\obj\Debug\net9.0\Customer.Application.pdb
+C:\Fuad\ESS_DotnetMicroService\src\services\customer\Customer.Application\obj\Debug\net9.0\ref\Customer.Application.dll

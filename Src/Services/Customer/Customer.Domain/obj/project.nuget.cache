@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "48wkmyGG13E=",
+  "dgSpecHash": "Q9mH2S2JqXw=",
   "success": true,
-  "projectFilePath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Domain\\Customer.Domain.csproj",
+  "projectFilePath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

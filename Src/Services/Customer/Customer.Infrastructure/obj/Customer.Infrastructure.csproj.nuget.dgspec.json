@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj": {}
+    "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj": {}
   },
   "projects": {
     "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Messaging\\BuildingBlocks.Messaging.csproj": {
@@ -134,14 +134,14 @@
         }
       }
     },
-    "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Application\\Customer.Application.csproj": {
+    "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Application\\Customer.Application.csproj",
+        "projectUniqueName": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj",
         "projectName": "Customer.Application",
-        "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Application\\Customer.Application.csproj",
+        "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Application\\obj\\",
+        "outputPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -162,8 +162,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Domain\\Customer.Domain.csproj": {
-                "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Domain\\Customer.Domain.csproj"
+              "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj": {
+                "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj"
               }
             }
           }
@@ -213,14 +213,14 @@
         }
       }
     },
-    "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Domain\\Customer.Domain.csproj": {
+    "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Domain\\Customer.Domain.csproj",
+        "projectUniqueName": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj",
         "projectName": "Customer.Domain",
-        "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Domain\\Customer.Domain.csproj",
+        "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Domain\\obj\\",
+        "outputPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -278,14 +278,14 @@
         }
       }
     },
-    "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj": {
+    "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj",
         "projectName": "Customer.Infrastructure",
-        "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj",
+        "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Infrastructure\\obj\\",
+        "outputPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -312,11 +312,11 @@
               "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj": {
                 "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj"
               },
-              "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Application\\Customer.Application.csproj": {
-                "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Application\\Customer.Application.csproj"
+              "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj": {
+                "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj"
               },
-              "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Domain\\Customer.Domain.csproj": {
-                "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Domain\\Customer.Domain.csproj"
+              "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj": {
+                "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj"
               }
             }
           }
@@ -347,7 +347,7 @@
               "target": "Package",
               "version": "[9.0.9, )"
             },
-            "Microsoft.Extensions.Configuration.Abstractions": {
+            "Microsoft.EntityFrameworkCore.Relational": {
               "target": "Package",
               "version": "[9.0.9, )"
             },

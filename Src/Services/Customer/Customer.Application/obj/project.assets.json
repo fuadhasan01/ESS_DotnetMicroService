@@ -664,8 +664,8 @@
         "net9.0": {
           "targetAlias": "net9.0",
           "projectReferences": {
-            "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Domain\\Customer.Domain.csproj": {
-              "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Domain\\Customer.Domain.csproj"
+            "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj": {
+              "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Domain\\Customer.Domain.csproj"
             }
           }
         }

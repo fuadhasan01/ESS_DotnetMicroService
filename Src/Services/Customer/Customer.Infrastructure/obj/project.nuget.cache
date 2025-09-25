@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wXi2tu41h0g=",
+  "dgSpecHash": "2zWy+YhrDLk=",
   "success": true,
-  "projectFilePath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj",
+  "projectFilePath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\fluentvalidation\\12.0.0\\fluentvalidation.12.0.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

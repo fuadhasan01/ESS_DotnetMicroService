@@ -10,3 +10,15 @@ C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Building
 C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\refint\BuildingBlocks.Messaging.dll
 C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\BuildingBlocks.Messaging.pdb
 C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\ref\BuildingBlocks.Messaging.dll
+C:\Fuad\ESS_DotnetMicroService\src\BuildingBlocks\BuildingBlocks.Messaging\bin\Debug\net9.0\BuildingBlocks.Messaging.deps.json
+C:\Fuad\ESS_DotnetMicroService\Src\BuildingBlocks\BuildingBlocks.Messaging\bin\Debug\net9.0\BuildingBlocks.Messaging.dll
+C:\Fuad\ESS_DotnetMicroService\Src\BuildingBlocks\BuildingBlocks.Messaging\bin\Debug\net9.0\BuildingBlocks.Messaging.pdb
+C:\Fuad\ESS_DotnetMicroService\Src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\BuildingBlocks.Messaging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fuad\ESS_DotnetMicroService\Src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\BuildingBlocks.Messaging.AssemblyInfoInputs.cache
+C:\Fuad\ESS_DotnetMicroService\Src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\BuildingBlocks.Messaging.AssemblyInfo.cs
+C:\Fuad\ESS_DotnetMicroService\Src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\BuildingBlocks.Messaging.csproj.CoreCompileInputs.cache
+C:\Fuad\ESS_DotnetMicroService\Src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\BuildingBlocks.Messaging.sourcelink.json
+C:\Fuad\ESS_DotnetMicroService\Src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\BuildingBlocks.Messaging.dll
+C:\Fuad\ESS_DotnetMicroService\Src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\refint\BuildingBlocks.Messaging.dll
+C:\Fuad\ESS_DotnetMicroService\Src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\BuildingBlocks.Messaging.pdb
+C:\Fuad\ESS_DotnetMicroService\src\BuildingBlocks\BuildingBlocks.Messaging\obj\Debug\net9.0\ref\BuildingBlocks.Messaging.dll

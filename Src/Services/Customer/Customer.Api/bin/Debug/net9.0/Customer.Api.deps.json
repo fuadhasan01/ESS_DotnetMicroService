@@ -18,7 +18,10 @@
           "MassTransit": "8.5.3",
           "MediatR": "13.0.0",
           "Microsoft.AspNetCore.OpenApi": "9.0.9",
+          "Microsoft.EntityFrameworkCore": "9.0.9",
           "Microsoft.EntityFrameworkCore.Design": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "9.0.9",
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4",
           "Serilog.AspNetCore": "9.0.0",
           "Swashbuckle.AspNetCore": "9.0.4"
         },
@@ -450,7 +453,7 @@
           "Microsoft.CodeAnalysis.CSharp": "4.8.0",
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "4.8.0",
           "Microsoft.CodeAnalysis.Workspaces.MSBuild": "4.8.0",
-          "Microsoft.EntityFrameworkCore.Relational": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "9.0.9",
           "Microsoft.Extensions.Caching.Memory": "9.0.9",
           "Microsoft.Extensions.Configuration.Abstractions": "9.0.9",
           "Microsoft.Extensions.DependencyModel": "9.0.4",
@@ -465,7 +468,7 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Relational/9.0.4": {
+      "Microsoft.EntityFrameworkCore.Relational/9.0.9": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.9",
           "Microsoft.Extensions.Caching.Memory": "9.0.9",
@@ -474,8 +477,8 @@
         },
         "runtime": {
           "lib/net8.0/Microsoft.EntityFrameworkCore.Relational.dll": {
-            "assemblyVersion": "9.0.4.0",
-            "fileVersion": "9.0.425.16310"
+            "assemblyVersion": "9.0.9.0",
+            "fileVersion": "9.0.925.41909"
           }
         }
       },
@@ -927,7 +930,7 @@
       "Npgsql.EntityFrameworkCore.PostgreSQL/9.0.4": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.9",
-          "Microsoft.EntityFrameworkCore.Relational": "9.0.4",
+          "Microsoft.EntityFrameworkCore.Relational": "9.0.9",
           "Npgsql": "9.0.3"
         },
         "runtime": {
@@ -1254,7 +1257,7 @@
           "Customer.Application": "1.0.0",
           "Customer.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "9.0.9",
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.9",
+          "Microsoft.EntityFrameworkCore.Relational": "9.0.9",
           "Microsoft.Extensions.Configuration.Binder": "9.0.8",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "9.0.4"
         },
@@ -1427,12 +1430,12 @@
       "path": "microsoft.entityframeworkcore.design/9.0.4",
       "hashPath": "microsoft.entityframeworkcore.design.9.0.4.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Relational/9.0.4": {
+    "Microsoft.EntityFrameworkCore.Relational/9.0.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OjJ+xh/wQff5b0wiC3SPvoQqTA2boZeJQf+15+3+OJPtjBKzvxuwr25QRIu1p1t+K8ryQ8pzaoZ7eOpXfNzVGA==",
-      "path": "microsoft.entityframeworkcore.relational/9.0.4",
-      "hashPath": "microsoft.entityframeworkcore.relational.9.0.4.nupkg.sha512"
+      "sha512": "sha512-SonFU9a8x4jZIhIBtCw1hIE3QKjd4c7Y3mjptoh682dfQe7K9pUPGcEV/sk4n8AJdq4fkyJPCaOdYaObhae/Iw==",
+      "path": "microsoft.entityframeworkcore.relational/9.0.9",
+      "hashPath": "microsoft.entityframeworkcore.relational.9.0.9.nupkg.sha512"
     },
     "Microsoft.Extensions.AmbientMetadata.Application/9.8.0": {
       "type": "package",

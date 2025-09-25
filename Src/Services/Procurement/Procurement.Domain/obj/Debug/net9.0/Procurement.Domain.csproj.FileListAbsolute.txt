@@ -10,3 +10,15 @@ C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services
 C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services\Procurement\Procurement.Domain\obj\Debug\net9.0\refint\Procurement.Domain.dll
 C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services\Procurement\Procurement.Domain\obj\Debug\net9.0\Procurement.Domain.pdb
 C:\Users\Fuad Hasan\OneDrive\Desktop\Backend\DotnetCoreMicroService\Src\Services\Procurement\Procurement.Domain\obj\Debug\net9.0\ref\Procurement.Domain.dll
+C:\Fuad\ESS_DotnetMicroService\Src\Services\Procurement\Procurement.Domain\bin\Debug\net9.0\Procurement.Domain.deps.json
+C:\Fuad\ESS_DotnetMicroService\Src\Services\Procurement\Procurement.Domain\bin\Debug\net9.0\Procurement.Domain.dll
+C:\Fuad\ESS_DotnetMicroService\Src\Services\Procurement\Procurement.Domain\bin\Debug\net9.0\Procurement.Domain.pdb
+C:\Fuad\ESS_DotnetMicroService\Src\Services\Procurement\Procurement.Domain\obj\Debug\net9.0\Procurement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Fuad\ESS_DotnetMicroService\Src\Services\Procurement\Procurement.Domain\obj\Debug\net9.0\Procurement.Domain.AssemblyInfoInputs.cache
+C:\Fuad\ESS_DotnetMicroService\Src\Services\Procurement\Procurement.Domain\obj\Debug\net9.0\Procurement.Domain.AssemblyInfo.cs
+C:\Fuad\ESS_DotnetMicroService\Src\Services\Procurement\Procurement.Domain\obj\Debug\net9.0\Procurement.Domain.csproj.CoreCompileInputs.cache
+C:\Fuad\ESS_DotnetMicroService\Src\Services\Procurement\Procurement.Domain\obj\Debug\net9.0\Procurement.Domain.sourcelink.json
+C:\Fuad\ESS_DotnetMicroService\Src\Services\Procurement\Procurement.Domain\obj\Debug\net9.0\Procurement.Domain.dll
+C:\Fuad\ESS_DotnetMicroService\Src\Services\Procurement\Procurement.Domain\obj\Debug\net9.0\refint\Procurement.Domain.dll
+C:\Fuad\ESS_DotnetMicroService\Src\Services\Procurement\Procurement.Domain\obj\Debug\net9.0\Procurement.Domain.pdb
+C:\Fuad\ESS_DotnetMicroService\Src\Services\Procurement\Procurement.Domain\obj\Debug\net9.0\ref\Procurement.Domain.dll
