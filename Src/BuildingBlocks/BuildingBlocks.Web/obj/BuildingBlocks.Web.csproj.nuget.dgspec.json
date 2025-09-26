@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Web\\BuildingBlocks.Web.csproj": {}
+    "C:\\Fuad\\ESS_DotnetMicroService\\src\\BuildingBlocks\\BuildingBlocks.Web\\BuildingBlocks.Web.csproj": {}
   },
   "projects": {
-    "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Web\\BuildingBlocks.Web.csproj": {
+    "C:\\Fuad\\ESS_DotnetMicroService\\src\\BuildingBlocks\\BuildingBlocks.Web\\BuildingBlocks.Web.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Web\\BuildingBlocks.Web.csproj",
+        "projectUniqueName": "C:\\Fuad\\ESS_DotnetMicroService\\src\\BuildingBlocks\\BuildingBlocks.Web\\BuildingBlocks.Web.csproj",
         "projectName": "BuildingBlocks.Web",
-        "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Web\\BuildingBlocks.Web.csproj",
+        "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\BuildingBlocks\\BuildingBlocks.Web\\BuildingBlocks.Web.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Web\\obj\\",
+        "outputPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\BuildingBlocks\\BuildingBlocks.Web\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

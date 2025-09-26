@@ -12,13 +12,13 @@ public sealed class CustomerReader : ICustomerReader
     public Task<CustomerDto?> ById(Guid id, CancellationToken ct) =>
         _db.Customers
             .Where(c => c.Id == id)
-            .Select(c => new CustomerDto(c.Id, c.Name, c.Email, null)) // Phone is not present
+            .Select(c => new CustomerDto(c.Id, c.Name, c.Email, c.Phone)) // Phone is now included
             .FirstOrDefaultAsync(ct);
 
     public async Task<IReadOnlyList<CustomerDto>> List(int skip, int take, CancellationToken ct) =>
         await _db.Customers
             .OrderBy(c => c.Name)
             .Skip(skip).Take(take)
-            .Select(c => new CustomerDto(c.Id, c.Name, c.Email, null)) // Phone is not present
+            .Select(c => new CustomerDto(c.Id, c.Name, c.Email, c.Phone)) // Phone is now included
             .ToListAsync(ct);
 }

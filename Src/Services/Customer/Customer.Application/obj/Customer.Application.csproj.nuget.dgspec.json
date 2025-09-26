@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj": {}
+    "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Application\\Customer.Application.csproj": {}
   },
   "projects": {
-    "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj": {
+    "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Application\\Customer.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj",
+        "projectUniqueName": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Application\\Customer.Application.csproj",
         "projectName": "Customer.Application",
-        "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj",
+        "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Application\\Customer.Application.csproj",
         "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
-        "outputPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Application\\obj\\",
+        "outputPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

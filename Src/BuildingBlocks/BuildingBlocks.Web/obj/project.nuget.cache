@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1wa4Cm2Qz1o=",
+  "dgSpecHash": "977nZsi/m2w=",
   "success": true,
-  "projectFilePath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Web\\BuildingBlocks.Web.csproj",
+  "projectFilePath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\BuildingBlocks\\BuildingBlocks.Web\\BuildingBlocks.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Lenovo\\.nuget\\packages\\fluentvalidation\\11.9.0\\fluentvalidation.11.9.0.nupkg.sha512",
     "C:\\Users\\Lenovo\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.9.0\\fluentvalidation.dependencyinjectionextensions.11.9.0.nupkg.sha512",

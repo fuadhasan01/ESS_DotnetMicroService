@@ -11,7 +11,7 @@ public sealed class CustomersWriter : ICustomersWriter
 
     public async Task<Guid> Add(string name, string? email, string? phone, CancellationToken ct)
     {
-        var customer = new Customer.Domain.Customer(name, email ?? string.Empty);
+        var customer = new Customer.Domain.Customer(name, email ?? string.Empty, phone);
         _db.Customers.Add(customer);
         await _db.SaveChangesAsync(ct);
         return customer.Id;
@@ -21,7 +21,7 @@ public sealed class CustomersWriter : ICustomersWriter
     {
         var customer = await _db.Customers.FindAsync(new object[] { id }, ct);
         if (customer == null) throw new ArgumentException("Customer not found", nameof(id));
-        customer.Update(name, email ?? string.Empty);
+        customer.Update(name, email ?? string.Empty, phone);
         await _db.SaveChangesAsync(ct);
     }
 

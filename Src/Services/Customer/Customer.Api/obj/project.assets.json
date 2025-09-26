@@ -5343,11 +5343,11 @@
             "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj": {
               "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Persistence\\BuildingBlocks.Persistence.csproj"
             },
-            "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Web\\BuildingBlocks.Web.csproj": {
-              "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\BuildingBlocks\\BuildingBlocks.Web\\BuildingBlocks.Web.csproj"
+            "C:\\Fuad\\ESS_DotnetMicroService\\src\\BuildingBlocks\\BuildingBlocks.Web\\BuildingBlocks.Web.csproj": {
+              "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\BuildingBlocks\\BuildingBlocks.Web\\BuildingBlocks.Web.csproj"
             },
-            "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj": {
-              "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Application\\Customer.Application.csproj"
+            "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Application\\Customer.Application.csproj": {
+              "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\src\\services\\customer\\Customer.Application\\Customer.Application.csproj"
             },
             "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj": {
               "projectPath": "C:\\Fuad\\ESS_DotnetMicroService\\Src\\Services\\Customer\\Customer.Infrastructure\\Customer.Infrastructure.csproj"
