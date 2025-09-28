@@ -1,0 +1,21 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Visual Studio / Rider / IDE files
+*.user
+*.suo
+*.vs/
+*.idea/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.assets.json
+*.nuget.cache
+*.nupkg.metadata
+
+# Rider / ReSharper
+*.DotSettings.user
