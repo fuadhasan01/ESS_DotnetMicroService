@@ -7,6 +7,7 @@ public interface ICustomerReader
 {
     Task<CustomerDto?> ById(Guid id, CancellationToken ct);
     Task<IReadOnlyList<CustomerDto>> List(int skip, int take, CancellationToken ct);
+    Task<IReadOnlyList<CustomerDto>> ActiveCustomers(int skip, int take, CancellationToken ct);
 }
 
 public interface ICustomersWriter

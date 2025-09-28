@@ -15,7 +15,7 @@ public class ListCustomersHandler : IRequestHandler<ListCustomers, IReadOnlyList
     private readonly ICustomerReader _reader;
     public ListCustomersHandler(ICustomerReader reader) => _reader = reader;
     public Task<IReadOnlyList<CustomerDto>> Handle(ListCustomers request, CancellationToken ct)
-        => _reader.List(request.Skip, request.Take, ct);
+        => _reader.ActiveCustomers(request.Skip, request.Take, ct);
 }
 
 public class CreateCustomerHandler : IRequestHandler<CreateCustomer, Guid>
