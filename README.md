@@ -109,25 +109,32 @@ dotnet watch --project Src/Services/Procurement/Procurement.Api
 dotnet watch --project Src/Services/Customer/Customer.Api
 ```
 
-### 5. Run API Gateway
+### 5. Run TaskManagement service
+
+```powershell
+dotnet watch --project Src/Services/TaskManagement/TaskManagement.Api
+```
+
+### 6. Run API Gateway
 
 ```powershell
 dotnet run --project Src/Gateway.Api
 ```
 
-### 6. Add a migration when needed
+### 7. Add a migration when needed
 
 ```powershell
 dotnet ef migrations add -p Src/Services/Catalog/Catalog.Infrastructure -s Src/Services/Catalog/Catalog.Api
 dotnet ef database update -p Src/Services/Catalog/Catalog.Infrastructure -s Src/Services/Catalog/Catalog.Api
 ```
 
-### 7. Access Swagger UI
+### 8. Access Swagger UI
 
 - [Catalog Swagger](https://localhost:5101/swagger/index.html)
 - [Procurement Swagger](http://localhost:5102/swagger/index.html)
 - [User Management Swagger](http://localhost:5103/swagger/index.html)
 - [Customer Swagger](http://localhost:5218/swagger/index.html)
+- [TaskManagement Swagger](http://localhost:5148/swagger/index.html)
 
 ## 🖥️ Running with Visual Studio (Multiple Startup Projects)
 
