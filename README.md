@@ -1,4 +1,3 @@
-
 <div align="center">
    <h1>DotnetCoreMicroService Monorepo</h1>
    <p><b>ERP Microservices Backend</b> — <code>.NET 9</code> · <code>PostgreSQL</code> · <code>Docker</code> · <code>YARP</code> · <code>MassTransit</code> · <code>Orchestration</code></p>
@@ -14,17 +13,14 @@
 
 ---
 
-
-
 ## 📝 Overview
+
 This repository contains a modular, production-grade ERP backend built with .NET 9, following Clean Architecture and microservices best practices. Each bounded context (Catalog, Procurement, etc.) is implemented as an independent service with its own API, Application, Domain, and Infrastructure projects.
 
 - **Tech Stack:** .NET 9, ASP.NET Core, PostgreSQL, EF Core 9, MassTransit (RabbitMQ), YARP (API Gateway), Docker
 - **Architecture:** Clean Architecture, CQRS, DDD, Outbox Pattern, Database-per-Service
 
-
 ---
-
 
 ## 🗂️ Solution Structure
 
@@ -50,40 +46,39 @@ DotnetCoreMicroService.sln
 └─ Tests/
 ```
 
-
 ---
 
-
 ## ⚙️ Key Principles
+
 - **Microservice per bounded context**: Each service is fully isolated.
 - **Database-per-service**: One Postgres instance, each service owns its schema and migrations.
 - **No shared domain code**: Only contracts/utilities in `BuildingBlocks`.
 - **Independently deployable**: Each service can be built and run on its own.
 
-
 ---
 
-
 ## 🏗️ Project Responsibilities
+
 - **Api**: HTTP endpoints, DI, health checks, Swagger, logging, YARP gateway.
 - **Application**: CQRS handlers, validation, orchestration, MediatR.
 - **Domain**: Entities, value objects, domain services, business rules.
 - **Infrastructure**: EF Core DbContext, migrations, repositories, outbox, messaging.
 - **BuildingBlocks**: Shared technical utilities (never domain logic).
 
-
 ---
-
 
 ## 🚀 Local Development
 
 ### 1. Start infrastructure
-   ```powershell
-   docker compose -f Docs/Compose/infra.yml up -d
-   ```
-   Open PgAdmin in the browser: [http://localhost:8081](http://localhost:8081)
-   - Login | Email Address: <code>admin@local.com</code> | Password: <code>admin</code>
-   - Register Database | Host: <code>postgres</code> | Post: <code>5432</code> | Username: <code>serviceadmin</code> | Database: <code>postgres</code> | Password: <code>123qwe</code>
+
+```powershell
+docker compose -f Docs/Compose/infra.yml up -d
+```
+
+Open PgAdmin in the browser: [http://localhost:8081](http://localhost:8081)
+
+- Login | Email Address: <code>admin@local.com</code> | Password: <code>admin</code>
+- Register Database | Host: <code>postgres</code> | Post: <code>5432</code> | Username: <code>serviceadmin</code> | Database: <code>postgres</code> | Password: <code>123qwe</code>
 
    <br/>
    <b>Apply Migration:</b>
@@ -93,30 +88,46 @@ DotnetCoreMicroService.sln
    dotnet ef database update  -p Src/Services/Catalog/Catalog.Infrastructure -s Src/Services/Catalog/Catalog.Api
    dotnet ef database update  -p Src/Services/Procurement/Procurement.Infrastructure -s Src/Services/Procurement/Procurement.Api
    dotnet ef database update  -p Src/Services/UserManagement/UserManagement.Infrastructure -s Src/Services/UserManagement/UserManagement.Api
+   dotnet ef database update  -p Src/Services/Customer/Customer.Infrastructure -s Src/Services/Customer/Customer.Api
    ```
 
 ### 2. Run Catalog service
-   ```powershell
-   dotnet watch --project Src/Services/Catalog/Catalog.Api
-   ```
-### 3. Run Procurement service
-   ```powershell
-   dotnet watch --project Src/Services/Procurement/Procurement.Api
-   ```
-### 4. Run API Gateway
-   ```powershell
-   dotnet run --project Src/Gateway.Api
-   ```
 
-### 5. Add a migration when needed
-   ```powershell
-   dotnet ef migrations add -p Src/Services/Catalog/Catalog.Infrastructure -s Src/Services/Catalog/Catalog.Api
-   dotnet ef database update -p Src/Services/Catalog/Catalog.Infrastructure -s Src/Services/Catalog/Catalog.Api
-   ```
-### 6. Access Swagger UI
-   - [Catalog Swagger](https://localhost:5101/swagger/index.html)
-   - [Procurement Swagger](http://localhost:5102/swagger/index.html)
-   - [User Management Swagger](http://localhost:5103/swagger/index.html)
+```powershell
+dotnet watch --project Src/Services/Catalog/Catalog.Api
+```
+
+### 3. Run Procurement service
+
+```powershell
+dotnet watch --project Src/Services/Procurement/Procurement.Api
+```
+
+### 4. Run Customer service
+
+```powershell
+dotnet watch --project Src/Services/Customer/Customer.Api
+```
+
+### 5. Run API Gateway
+
+```powershell
+dotnet run --project Src/Gateway.Api
+```
+
+### 6. Add a migration when needed
+
+```powershell
+dotnet ef migrations add -p Src/Services/Catalog/Catalog.Infrastructure -s Src/Services/Catalog/Catalog.Api
+dotnet ef database update -p Src/Services/Catalog/Catalog.Infrastructure -s Src/Services/Catalog/Catalog.Api
+```
+
+### 7. Access Swagger UI
+
+- [Catalog Swagger](https://localhost:5101/swagger/index.html)
+- [Procurement Swagger](http://localhost:5102/swagger/index.html)
+- [User Management Swagger](http://localhost:5103/swagger/index.html)
+- [Customer Swagger](http://localhost:5218/swagger/index.html)
 
 ## 🖥️ Running with Visual Studio (Multiple Startup Projects)
 
@@ -137,58 +148,54 @@ You can run the API Gateway and multiple microservices at once using Visual Stud
 
 ---
 
-
-
 ## 📦 Catalog Service API
 
 - **Direct service endpoints:**
-   - List products: `GET http://localhost:5101/v1/products`
-   - Product detail: `GET http://localhost:5101/v1/products/{id}`
-   - List categories: `GET http://localhost:5101/v1/categories`
-   - Category detail: `GET http://localhost:5101/v1/categories/{id}`
+
+  - List products: `GET http://localhost:5101/v1/products`
+  - Product detail: `GET http://localhost:5101/v1/products/{id}`
+  - List categories: `GET http://localhost:5101/v1/categories`
+  - Category detail: `GET http://localhost:5101/v1/categories/{id}`
 
 - **Via API Gateway:**
-   - List products: `GET http://localhost:5000/api/catalog/products`
-   - Product detail: `GET http://localhost:5000/api/catalog/products/{id}`
-   - List categories: `GET http://localhost:5000/api/catalog/categories`
-   - Category detail: `GET http://localhost:5000/api/catalog/categories/{id}`
+  - List products: `GET http://localhost:5000/api/catalog/products`
+  - Product detail: `GET http://localhost:5000/api/catalog/products/{id}`
+  - List categories: `GET http://localhost:5000/api/catalog/categories`
+  - Category detail: `GET http://localhost:5000/api/catalog/categories/{id}`
 
 > The API Gateway (<code>Gateway.Api</code>) uses YARP to route <code>/api/catalog/{**catch-all}</code> to <code>/v1/{**catch-all}</code> on the Catalog service. See <code>Gateway.Api/appsettings.json</code> for details.
 
-
 ---
-
 
 ## 🏢 Procurement Service API
 
 - **Direct service endpoints:**
-   - List suppliers: `GET http://localhost:5102/v1/suppliers`
-   - Supplier detail: `GET http://localhost:5102/v1/suppliers/{id}`
-   - List supplier products: `GET http://localhost:5102/v1/supplier-products`
-   - Supplier product detail: `GET http://localhost:5102/v1/supplier-products/{supplierId}/{productId}`
+
+  - List suppliers: `GET http://localhost:5102/v1/suppliers`
+  - Supplier detail: `GET http://localhost:5102/v1/suppliers/{id}`
+  - List supplier products: `GET http://localhost:5102/v1/supplier-products`
+  - Supplier product detail: `GET http://localhost:5102/v1/supplier-products/{supplierId}/{productId}`
 
 - **Via API Gateway:**
-   - List suppliers: `GET http://localhost:5000/api/procurement/suppliers`
-   - Supplier detail: `GET http://localhost:5000/api/procurement/suppliers/{id}`
-   - List supplier products: `GET http://localhost:5000/api/procurement/supplier-products`
-   - Supplier product detail: `GET http://localhost:5000/api/procurement/supplier-products/{supplierId}/{productId}`
+  - List suppliers: `GET http://localhost:5000/api/procurement/suppliers`
+  - Supplier detail: `GET http://localhost:5000/api/procurement/suppliers/{id}`
+  - List supplier products: `GET http://localhost:5000/api/procurement/supplier-products`
+  - Supplier product detail: `GET http://localhost:5000/api/procurement/supplier-products/{supplierId}/{productId}`
 
 > The API Gateway (<code>Gateway.Api</code>) uses YARP to route <code>/api/procurement/{**catch-all}</code> to <code>/v1/{**catch-all}</code> on the Procurement service. See <code>Gateway.Api/appsettings.json</code> for details.
 
-
 ---
 
-
 ## 🌐 API Gateway (YARP)
+
 - All external traffic goes through the Gateway (`Gateway.Api`).
 - Routes like `/api/catalog/...` or `/api/procurement/...` are mapped to internal service endpoints.
 - See `Gateway.Api/appsettings.json` for route config.
 
-
 ---
 
-
 ## 🤝 Contributing
+
 - Follow Clean Architecture and DDD boundaries.
 - Do not share domain code between services.
 - Add new features in the appropriate layer and project.
