@@ -1,3 +1,4 @@
+using TaskManagement.Domain;
 namespace TaskManagement.Application.Tasks;
 
 public interface ITaskReader
@@ -9,6 +10,7 @@ public interface ITaskReader
 public interface ITaskWriter
 {
     Task<Guid> Add(string title, string? description, CancellationToken ct);
+    //Add TaskStatus parameter
     Task Update(Guid id, string title, string? description, CancellationToken ct);
     Task Delete(Guid id, CancellationToken ct);
 }

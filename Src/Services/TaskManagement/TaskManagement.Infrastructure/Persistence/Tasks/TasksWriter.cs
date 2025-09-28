@@ -20,8 +20,7 @@ public class TasksWriter : ITaskWriter
     {
         var task = await _db.Tasks.FindAsync(new object[] { id }, ct);
         if (task == null) throw new ArgumentException("Task not found", nameof(id));
-        task.GetType().GetProperty("Title")!.SetValue(task, title);
-        task.GetType().GetProperty("Description")!.SetValue(task, description);
+        task.Update(title, description);
         await _db.SaveChangesAsync(ct);
     }
 
@@ -33,4 +32,5 @@ public class TasksWriter : ITaskWriter
         task.Deactivate();
         await _db.SaveChangesAsync(ct);
     }
+
 }
