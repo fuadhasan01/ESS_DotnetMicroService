@@ -29,7 +29,8 @@ public class TasksWriter : ITaskWriter
     {
         var task = await _db.Tasks.FindAsync(new object[] { id }, ct);
         if (task == null) throw new ArgumentException("Task not found", nameof(id));
-        _db.Tasks.Remove(task);
+        // Soft delete by setting status to Inactive
+        task.Deactivate();
         await _db.SaveChangesAsync(ct);
     }
 }

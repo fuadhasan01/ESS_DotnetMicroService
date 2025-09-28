@@ -29,7 +29,8 @@ public class EmployeesWriter : IEmployeeWriter
     {
         var employee = await _db.Employees.FindAsync(new object[] { id }, ct);
         if (employee == null) throw new ArgumentException("Employee not found", nameof(id));
-        _db.Employees.Remove(employee);
+        // Soft delete by setting status to Inactive
+        employee.Deactivate();
         await _db.SaveChangesAsync(ct);
     }
 }
