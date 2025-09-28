@@ -7,3 +7,4 @@ public sealed record UpdateTask(Guid Id, string Title, string? Description) : IR
 public sealed record DeleteTask(Guid Id) : IRequest;
 public sealed record GetTaskById(Guid Id) : IRequest<TaskDto?>;
 public sealed record ListTasks(int Skip, int Take) : IRequest<IReadOnlyList<TaskDto>>;
+public sealed record AssignTaskRequest(Guid TaskId, Guid EmployeeId) : IRequest;

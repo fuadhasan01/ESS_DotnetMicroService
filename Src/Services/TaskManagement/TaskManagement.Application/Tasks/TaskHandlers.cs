@@ -42,3 +42,12 @@ public class DeleteTaskHandler : IRequestHandler<DeleteTask>
     public async Task Handle(DeleteTask request, CancellationToken ct) =>
         await _writer.Delete(request.Id, ct);
 }
+
+public class AssignTaskHandler : IRequestHandler<AssignTaskRequest>
+{
+    private readonly ITaskWriter _assigner;
+    public AssignTaskHandler(ITaskWriter assigner) => _assigner = assigner;
+
+    public async Task Handle(AssignTaskRequest request, CancellationToken ct) =>
+        await _assigner.Assign(request.TaskId, request.EmployeeId, ct);
+}

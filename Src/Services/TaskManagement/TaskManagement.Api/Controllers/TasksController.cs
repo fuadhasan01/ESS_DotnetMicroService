@@ -49,10 +49,14 @@ public class TasksController : ControllerBase
     }
 
     [HttpPost("{id:guid}/assign")]
-    public async Task<IActionResult> Assign(Guid id, [FromBody] AssignTask assign, CancellationToken ct)
+    public async Task<IActionResult> Assign(Guid id, [FromBody] AssignTaskRequest assignTaskRequest, CancellationToken ct)
     {
-        if (id != assign.TaskId) return BadRequest();
-        await _mediator.Send(assign, ct);
+        // Ensure the route ID and body ID match
+        if (id != assignTaskRequest.TaskId)
+            return BadRequest("Route ID and body TaskId do not match");
+
+        await _mediator.Send(assignTaskRequest, ct);
         return NoContent();
     }
+
 }

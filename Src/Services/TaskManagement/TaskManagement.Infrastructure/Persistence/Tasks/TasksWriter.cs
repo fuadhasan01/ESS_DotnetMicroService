@@ -32,5 +32,16 @@ public class TasksWriter : ITaskWriter
         task.Deactivate();
         await _db.SaveChangesAsync(ct);
     }
+    public async Task Assign(Guid taskId, Guid employeeId, CancellationToken ct)
+    {
+        var task = await _db.Tasks.FindAsync(new object[] { taskId }, ct);
+        if (task == null)
+            throw new KeyNotFoundException($"Task {taskId} not found"); // 404, not 500
+
+        var taskAssignment = new TaskAssignment(taskId, employeeId);
+        _db.TaskAssignments.Add(taskAssignment);
+        await _db.SaveChangesAsync(ct);
+    }
+
 
 }

@@ -13,4 +13,5 @@ public interface ITaskWriter
     //Add TaskStatus parameter
     Task Update(Guid id, string title, string? description, CancellationToken ct);
     Task Delete(Guid id, CancellationToken ct);
+    Task Assign(Guid taskId, Guid employeeId, CancellationToken ct);
 }
