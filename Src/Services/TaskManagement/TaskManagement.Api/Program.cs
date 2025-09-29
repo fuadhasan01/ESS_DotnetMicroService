@@ -18,12 +18,13 @@ builder.Services.AddMediatR(cfg =>
 });
 
 // Add health checks (optional, similar to Customer.Api)
+
 builder.Services.AddHealthChecks()
     .AddNpgSql(builder.Configuration.GetSection("Database")["ConnectionString"]!);
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(); 
 
 var app = builder.Build();
 
