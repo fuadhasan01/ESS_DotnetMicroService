@@ -89,6 +89,7 @@ Open PgAdmin in the browser: [http://localhost:8081](http://localhost:8081)
    dotnet ef database update  -p Src/Services/Procurement/Procurement.Infrastructure -s Src/Services/Procurement/Procurement.Api
    dotnet ef database update  -p Src/Services/UserManagement/UserManagement.Infrastructure -s Src/Services/UserManagement/UserManagement.Api
    dotnet ef database update  -p Src/Services/Customer/Customer.Infrastructure -s Src/Services/Customer/Customer.Api
+   dotnet ef database update  -p Src/Services/TaskManagement/TaskManagement.Infrastructure -s Src/Services/TaskManagement/TaskManagement.Api
    ```
 
 ### 2. Run Catalog service
